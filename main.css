@@ -1,0 +1,42 @@
+body {
+  background-color: #D3D9DB;
+ 
+}
+
+h1 {
+  align-self: center;
+
+}
+
+.container {
+  background-color: white;
+  width: 500px;
+  height: 95vh;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.input-button {
+  align-self: flex-end;
+  height: 40px;
+  width: 100%;
+}
+
+.new-task-input {
+  width: 85%;
+  margin-left: 12px;
+  border-radius: 5px;
+  box-shadow: 3px 3px 0px 0px #ccc;
+}
+
+ul {
+  height: 85%;
+}
+
+button {
+  border-radius: 5px;
+}
