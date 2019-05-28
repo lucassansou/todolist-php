@@ -1,11 +1,13 @@
 body {
   background-color: #D3D9DB;
- 
+  font-family: 'Montserrat', sans-serif;
+
 }
 
 h1 {
-  align-self: center;
-
+  align-self: flex-end;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .container {
@@ -20,23 +22,62 @@ h1 {
   justify-content: space-between;
 }
 
-.input-button {
-  align-self: flex-end;
-  height: 40px;
+.calendario {
+  height: 30%;
   width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background-image: url(starstardew.png);
+  background-size: contain;
+  color: white;
+  display: flex;
+}
+
+
+
+form{
+  height: 5%;
+}
+
+.form-p {
+  color: red;
+  position: static;
+  margin: 0px;
+  margin-left: 140px;
+  margin-right: 180px;
+  height: 20px;
 }
 
 .new-task-input {
   width: 85%;
+  position: static;
   margin-left: 12px;
   border-radius: 5px;
   box-shadow: 3px 3px 0px 0px #ccc;
 }
 
 ul {
-  height: 85%;
+  height: 60%;
+  padding: 0px;
+  margin-bottom: 0px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
 }
 
-button {
+a:link {
+  color: red;
+}
+
+.delete-button {
+  background-color: white;
+  border: none; 
+  color: white;
+  cursor: pointer;
+  float: right;
+}
+
+.task-button {
   border-radius: 5px;
+  margin-left: 8px;
 }
